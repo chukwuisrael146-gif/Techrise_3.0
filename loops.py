@@ -152,3 +152,27 @@ def greet_User(name):       # 'name' is the PARAMETER
     message = f"Welcome to the platform, {name}!"
     print(message)    # Return the result
 
+for i in range(4):
+    for col in range(4):
+        print("#", end=" ")
+    print()
+    
+# n = 4 
+
+# for i in range(n, 0, -1):
+#     print("# " * i)
+    
+for i in range(4):
+    for col in range(4-i):
+        print("#", end=" ")
+    print()
+    
+# n = 4
+# while n > 0:
+#     print("# " * n)
+#     n -= 1
+
+for i in range(4):
+    for col in range(1 + i):
+        print("#", end=" ")
+    print()
